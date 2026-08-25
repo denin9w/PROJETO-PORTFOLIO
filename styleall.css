@@ -1,0 +1,8 @@
+@media (min-width:768px) {
+ #skill-container{
+  
+  grid-template-columns: auto auto;
+
+}
+  
+}
