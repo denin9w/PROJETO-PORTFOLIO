@@ -4,5 +4,16 @@
   grid-template-columns: auto auto;
 
 }
-  
+  .projeto{
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  .projeto-info{
+    max-width: 80%;
+  }
+  .foto{
+    aspect-ratio: 1/1;
+    max-width: 20%;
+    max-height: 200px;
+  }
 }
