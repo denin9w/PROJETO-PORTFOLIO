@@ -41,6 +41,9 @@ header{
   display: flex;
   justify-content: end;
   align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 
@@ -183,7 +186,7 @@ article h2{
   color: var(--destaque-inverso);
 }
 
-#projeto-container{
+#projetos-container{
   display: flex;
   flex-direction: column-reverse;
   gap:20px;
